@@ -1,0 +1,66 @@
+/* General Styles */
+*{
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url(2314950.jpg) no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 420px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  border-style: bold;
+  padding: 50px;
+  border-style: blur(45px);
+
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 55px;
+  color: #fff;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+/* Button */
+.btn{
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s;
+  margin-top: 40px;
+}
+.btnl{
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+.btn:hover {
+  background: lightblue;
+}
