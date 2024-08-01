@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PRODUCT INVENTORY</title>
+    <link href="inventory.css" rel="stylesheet" >
+    <script src="inventory.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li class="a"><a href="#">Home</a></li>
+        <li class="a"><a href="#">Products</a></li>
+        <li class="a"><a href="#">Inventory</a></li>
+        <li class="a"><a href="#">Orders</a></li>
+        <li class="a"><a href="#">Reports</a></li>
+        <li class="a"><a href="#">Help</a></li>
+      </ul>
+    </nav>
+    <div>
+    <header>
+      <h1> PRODUCT INVENTORY</h1>
+    </header>
+    <div class="form-container">
+      <input type="text" id="productName" placeholder="Product Name">
+      <input type="number" id="productPrice" placeholder="Product Price">
+      <input type="number" id="productQuantity" placeholder="Product Quantity">
+      <button onclick="addProduct()">Add Product</button>
+  </div>
+  <table id="productTable">
+      <thead>
+          <tr>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Action</th>
+          </tr>
+      </thead>
+      <tbody>
+          <!-- Inventory items will be appended here -->
+      </tbody>
+  </table>
+</div>
+<script src="inventory.js"></script>
+  </div>
+  </body>
+</html>
