@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a{
+  color: #fff;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background: url(2314950.jpg) no-repeat;
